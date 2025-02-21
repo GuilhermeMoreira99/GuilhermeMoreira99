@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- header -->
+    <header class="header" id="header">
+        <a href="#" class="logo">Guilherme Leite</a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">Sobre</a>
+            </li>
+            <li>
+                <a href="#projects">Projetos</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+    </header>
+    <!-- /header -->
+
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <img src="assets/perfil.JPEG" alt="">
+
+            <div class="info-box">
+
+                <div class="text">
+                    <h3>Olá, Me chamo</h3>
+                    <h1>Guilherme Leite</h1>
+                    <span>Frontend Developer</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn">Currículo</div>
+                    <div class="btn">Contato</div>
+                </div>
+
+                <div class="socials">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /about -->
+
+    <!-- projects -->
+    <section class="project-section" id="project">
+
+        <h1 id="project-tittle">Projetos</h1>
+
+        <div id="project-grid">
+
+            <div id="project-card">  
+                <img src="/assets/pag.png" alt="">                     
+                <h3>1º Projeto</h3>
+                <p>Projeto para venda de lanches on-line</p>    
+                <a href="https://menu-lanche-git-main-guilhermes-projects-a4e2a0b0.vercel.app/"></a> 
+                <div class="btn-group">
+                    <a class="link-btn" href="">
+                        <div class="btn">
+                            <i id="link" class="fa-brands fa-github"></i> GitHub Repo
+                        </div>
+                    </a>
+                    <a class="link-btn" href="">
+                        <div class="btn">
+                            <i id="link" class="fa-solid fa-link"></i> Link Pag
+                        </div>
+                    </a>
+                </div>          
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /projects -->
+
+</body>
+<script src="script.js"></script>
+</html>
